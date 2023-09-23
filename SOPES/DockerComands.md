@@ -10,6 +10,9 @@ docker login
 # Subir imagen a docker hub
 docker push username/name_container
 
+# Clonar imagen de docker
+docker pull imagenName
+
 # Ver contenedores activos
 docker ps
 

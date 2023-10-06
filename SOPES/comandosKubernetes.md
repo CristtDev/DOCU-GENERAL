@@ -30,3 +30,4 @@ gcloud --version
 
 # CONFIGURACIONES BASICAS
  * You can change it by running [gcloud config set compute/region NAME]. CAMBIO DE ZONA HORARIA
+ * gcloud services enable container.googleapis.com (COMANDO POR UN ERROR AL CREAR EL KUBERNETE Y TIRA 400)

@@ -26,4 +26,7 @@ gcloud --version
 # DARLE DEPLOY AL CONTENEDOR CREADO
 * kubectl create namespace nombreSpace 
 (namespace - apartado pa grupos )
-* 
+
+
+# CONFIGURACIONES BASICAS
+ * You can change it by running [gcloud config set compute/region NAME]. CAMBIO DE ZONA HORARIA

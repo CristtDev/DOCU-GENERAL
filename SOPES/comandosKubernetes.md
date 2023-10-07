@@ -9,7 +9,8 @@
 * gcloud init
 * Escoger usuario y proyecto
 * Establecer zona: uscentral1-a
-* gcloud container clusters create nombre-proyecto --num-nodes=1 --machine-type=n1-standard-1 --zone=us-central1-a
+* gcloud container clusters create api-cluster  --num-nodes 2 --machine-type n1-standard-2 --zone us-central1-f
+
 
 ----
 * Nota: para el tipo de maquina se usan para el P2 (n2, n2d, n1)
@@ -31,3 +32,5 @@ gcloud --version
 # CONFIGURACIONES BASICAS
  * You can change it by running [gcloud config set compute/region NAME]. CAMBIO DE ZONA HORARIA
  * gcloud services enable container.googleapis.com (COMANDO POR UN ERROR AL CREAR EL KUBERNETE Y TIRA 400)
+ * gcloud config list (para ver los detalles de la configuracion)
+ * 

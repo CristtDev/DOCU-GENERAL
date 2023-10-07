@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: wordpress
+spec;
+  replicass: 2
+  template:
+    metadata:
+      labels:
+        role: nombre-role-servicio
+    spec:
+    containers:
+    - name: nombre-contenedor
+    image: nombre de la imagen a desplegar
+    imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 80

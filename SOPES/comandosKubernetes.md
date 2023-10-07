@@ -34,3 +34,4 @@ gcloud --version
  * gcloud services enable container.googleapis.com (COMANDO POR UN ERROR AL CREAR EL KUBERNETE Y TIRA 400)
  * gcloud config list (para ver los detalles de la configuracion)
  * gcloud auth configure-docker (comando para habilitar autorizacion de push en cluster)
+ * gcloud container clusters get-credentials "api-cluster" --zone us-central1-f (commndo para configurar zona y que permita crear el namespace)

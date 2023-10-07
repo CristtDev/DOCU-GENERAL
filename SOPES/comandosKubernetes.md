@@ -18,6 +18,9 @@
 # VERIFICACION CORRECTA INSTALACION 
 gcloud --version
 
+# VER INFO DE NODO 
+kubectl get nodes -o wide
+
 # CONSTRUCCION DE IMAGEN EN CLUSTER
 * docker build -t gcr.io/id_proyectoGoogle/nombre-imagen:tag .
  * docker push gcr.io/id_proyectoGoogle/nombre-imagen:tag

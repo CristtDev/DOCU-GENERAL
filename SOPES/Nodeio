@@ -1,0 +1,5 @@
+# CREACION DE SERVER IO 
+
+* npm init --yes
+* npm install all
+* npm install socket.io express cors

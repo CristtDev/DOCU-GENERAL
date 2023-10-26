@@ -1,0 +1,21 @@
+# PASOS PARA PROYECTO
+##TENER CREADAS LAS IMAGENES DE LAS APIS
+## Crear Cluster (Estandar)
+## Conectarse a cluster en la shell
+## Crear namesPace 
+* create ns npmbre-namespace
+## Creacion de Secret para variables de entorno
+## Creacion de deployments
+## Creaccion de servicios para deploys  
+## Ejecutar el comando PORTFORGUARD con el puerto local al que se consumira
+* kubectl port-forward service/<service-name> <local-port>:<service-port> -n <nombre_namespace>
+## Configurar Ingress Controller NGINX
+
+- `kubectl create ns nginx-ingress`
+- `helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx`
+- `helm repo update`
+- `helm install nginx-ingress ingress-nginx/ingress-nginx -n nginx-ingress`
+- `kubectl get services -n nginx-ingress`  
+
+## Se agrega la ip del loadBalancer de nginx al host del ingress yaml
+## Se corre el ingress.yml
